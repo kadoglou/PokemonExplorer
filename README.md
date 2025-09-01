@@ -6,6 +6,11 @@
   Explore, search, and view Pokémon stats with a clean architecture, offline-first strategy, and robust error handling.
 </p>
 
+<img width="3684" height="2156" alt="showcase1" src="https://github.com/user-attachments/assets/989fbb3f-b52c-45a6-a76b-ca03becadd32" />
+
+<img width="2840" height="1072" alt="showcase2" src="https://github.com/user-attachments/assets/4bab5819-fad7-4ae5-a5bc-d6d9cc972bb7" />
+
+
 ---
 
 ## 📦 Libraries & Tools
