@@ -1,0 +1,12 @@
+<configuration xmlns="https://tony19.github.io/logback-android/xml">
+    <property name="LOG_LEVEL" value="DEBUG"/>
+    <appender name="LOGCAT" class="ch.qos.logback.classic.android.LogcatAppender">
+        <tagEncoder><pattern>%logger{20}</pattern></tagEncoder>
+        <encoder><pattern>[%-5level] %msg | ts=%date{HH:mm:ss.SSS} thread=%thread%n</pattern></encoder>
+    </appender>
+    <logger name="io.ktor.client" level="TRACE"/>
+    <logger name="io.ktor.client.plugins.logging" level="TRACE"/>
+    <root level="${LOG_LEVEL}">
+        <appender-ref ref="LOGCAT"/>
+    </root>
+</configuration>

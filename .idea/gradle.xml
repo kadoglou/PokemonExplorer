@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-logic" />
+                  <project path="$PROJECT_DIR$/build-logic/conventions" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/build-logic" />
+            <option value="$PROJECT_DIR$/build-logic/conventions" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/network" />
+            <option value="$PROJECT_DIR$/core/network/httpClient" />
+            <option value="$PROJECT_DIR$/core/paginator" />
+            <option value="$PROJECT_DIR$/core/settings" />
+            <option value="$PROJECT_DIR$/core/system" />
+            <option value="$PROJECT_DIR$/core/system/connectivity" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/data/db" />
+            <option value="$PROJECT_DIR$/data/repository" />
+            <option value="$PROJECT_DIR$/data/repository/pokemon" />
+            <option value="$PROJECT_DIR$/data/repository/type" />
+            <option value="$PROJECT_DIR$/data/source" />
+            <option value="$PROJECT_DIR$/data/source/pokemon" />
+            <option value="$PROJECT_DIR$/data/source/pokemon/local" />
+            <option value="$PROJECT_DIR$/data/source/pokemon/remote" />
+            <option value="$PROJECT_DIR$/data/source/type" />
+            <option value="$PROJECT_DIR$/data/source/type/local" />
+            <option value="$PROJECT_DIR$/data/source/type/remote" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/domain/repository" />
+            <option value="$PROJECT_DIR$/domain/repository/pokemon" />
+            <option value="$PROJECT_DIR$/domain/repository/type" />
+            <option value="$PROJECT_DIR$/domain/result" />
+            <option value="$PROJECT_DIR$/domain/usecase" />
+            <option value="$PROJECT_DIR$/domain/usecase/pokemon" />
+            <option value="$PROJECT_DIR$/domain/usecase/type" />
+            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/presentation/core" />
+            <option value="$PROJECT_DIR$/presentation/core/component" />
+            <option value="$PROJECT_DIR$/presentation/feature" />
+            <option value="$PROJECT_DIR$/presentation/feature/searchList" />
+            <option value="$PROJECT_DIR$/presentation/resources" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

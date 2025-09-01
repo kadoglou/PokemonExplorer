@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="PokemonExplorer.core.model" target="21" />
+      <module name="PokemonExplorer.core.models" target="21" />
+      <module name="PokemonExplorer.data.repository.pokemonDetails" target="21" />
+      <module name="PokemonExplorer.data.source.pokemonDetails.local" target="21" />
+      <module name="PokemonExplorer.data.source.pokemonDetails.remote" target="21" />
+      <module name="PokemonExplorer.data.source.pokemonDetails.store" target="21" />
+      <module name="PokemonExplorer.domain.errorHandling" target="21" />
+      <module name="PokemonExplorer.domain.model" target="21" />
+      <module name="PokemonExplorer.domain.repository.pokemonDetails" target="21" />
+      <module name="PokemonExplorer.domain.usecase.pokemonType" target="21" />
+      <module name="PokemonExplorer.presentation.feature.searchView" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
